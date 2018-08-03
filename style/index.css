@@ -1,0 +1,191 @@
+body {
+    background-color: #DFE1E6;
+}
+
+.container {
+    width: 100%;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 10px 113px -12px rgba(224, 224, 226, 1);
+    -moz-box-shadow: 0px 10px 113px -12px rgba(224, 224, 226, 1);
+    box-shadow: 0px 10px 113px -12px rgba(255, 255, 255, 1);
+}
+
+.nav-container {
+    height: 60px;
+    width: 100%;
+    display: block;
+}
+
+div.nav-bar {
+    background-color: #282222;
+    height: 60px;
+    width: 15%;
+    float: right;
+}
+
+div.image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vw;
+    width: 30%;
+    margin-left: 10%;
+    border-radius: 10%;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    text-align: center;
+}
+
+.section1 {
+    background: url(../image/monks.jpg);
+}
+
+.section2 {
+    background: url(../image/wild.jpg);
+}
+
+.section3 {
+    background: url(../image/fashion.jpg);
+}
+
+div.text {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.footer img {
+    display: inline;
+    margin: 0 5% 5% 5%;
+    width: 8%;
+}
+
+#top-hr {
+    margin-left: 20%;
+    margin-right: 40%;
+}
+
+#middle-hr {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 0.4em;
+}
+
+#bottom-hr {
+    margin-left: 20%;
+    margin-right: 30%;
+    margin-top: 0.4em;
+    margin-bottom: 4em;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 14vw;
+    margin-bottom: -5%;
+    margin-left: 10%;
+}
+
+h4 {
+    font-size: 6vw;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+p {
+    font-size: 4vw;
+    margin-bottom: 3%;
+    text-align: left;
+}
+
+.star {
+    color: orange;
+    font-size: 3.5vw;
+}
+
+#firstHr {
+    margin: 10% 0 10% 10%;
+    height: 1px;
+    border: 0;
+    border-top: 0.5px solid #ccc;
+    padding: 0;
+}
+
+hr.explore-id {
+    width: 10vw;
+    float: left;
+}
+
+.explore-text {
+    font-weight: bold;
+    font-size: 4vw;
+    margin-left: 5vw;
+}
+
+.greater-than {
+    font-weight: bolder;
+    margin-left: 3vw;
+    font-size: 4vw;
+}
+
+.section-row {
+    margin: 10% 0;
+}
+
+img#center-image {
+    width: 10%;
+    border-radius: 50% !important;
+}
+
+.image-text {
+    position: absolute;
+    bottom: 0vw;
+    font-size: 3vw;
+    color: #fff;
+    font-weight: bolder;
+    margin-left: 10%;
+}
+
+hr#hr3 {
+    height: 1px;
+    border: 0;
+    border-top: 0.5px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+@media screen and (min-width: 480px) {
+    .container {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    h1 {
+        font-size: 68px;
+    }
+    h4 {
+        font-size: 26px;
+    }
+    p,
+    .explore-text,
+    .image-text,
+    .star {
+        font-size: 17px;
+    }
+    .section-row div.image {
+        width: 138.59px;
+        height: 191.19px;
+    }
+    .greater-than {
+        font-size: 20px;
+    }
+    hr.explore-id {
+        width: 64.297px;
+    }
+    .explore-text {
+        margin-left: 22px;
+    }
+}
