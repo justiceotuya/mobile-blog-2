@@ -1,5 +1,6 @@
 body {
     background-color: #DFE1E6;
+    font-family: sans-serif;
 }
 
 .container {
@@ -54,6 +55,13 @@ div.text {
     vertical-align: top;
     margin-left: 5%;
     margin-right: 5%;
+}
+
+.nav-bar hr {
+    margin: auto;
+    border: 2px solid #fff;
+    position: relative;
+    top: 25%;
 }
 
 .footer img {
@@ -177,7 +185,7 @@ hr#hr3 {
     }
     .section-row div.image {
         width: 138.59px;
-        height: 191.19px;
+        height: 138.59px;
     }
     .greater-than {
         font-size: 20px;
