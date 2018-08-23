@@ -158,6 +158,10 @@ img#center-image {
     margin-left: 10%;
 }
 
+div.image-text {
+    margin-bottom: 5px;
+}
+
 hr#hr3 {
     height: 1px;
     border: 0;
