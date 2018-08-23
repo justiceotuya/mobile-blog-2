@@ -64,10 +64,19 @@ div.text {
     top: 25%;
 }
 
+a {
+    color: #000;
+}
+
 .footer img {
     display: inline;
     margin: 0 5% 5% 5%;
     width: 8%;
+}
+
+.footer img:hover {
+    transition: 0.5s ease-out;
+    transform: scale(1.5);
 }
 
 #top-hr {
